@@ -1,0 +1,7 @@
+# Sabber Khandoozi
+# Checking for Palindrome!
+
+input_word = input("Please enter the word:")
+rev_word = input_word[-1::-1]
+Output = "Palindrome" if input_word == rev_word else "Is not Plindrome"
+print(Output)
